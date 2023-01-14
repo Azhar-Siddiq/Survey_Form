@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main
+{
+    width: 100%;
+    font-family: sans-serif;
+}
+.signup-box
+{
+    padding-top: 180px;
+    width: 100%;
+    background-image: url(./Assets/bg1.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signup-box fieldset
+{
+    width: 50%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    backdrop-filter: blur(3px);
+    /* box-shadow: rgba(247, 244, 244, 0.95) 0px 5px 15px;
+    background: rgb(243,180,58);
+    background: linear-gradient(151deg, rgba(243,180,58,1) 0%, rgba(0,53,75,1) 82%, rgba(0,64,89,1) 100%); */
+    border: none;
+}
+.signup-box fieldset h1
+{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.signup-box fieldset legend
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.signup-box fieldset legend img
+{
+    width: 60px;
+    height: 60px;
+}
+.signup-box fieldset label
+{
+    color: #fff;
+    font-weight: bold;
+}
+.signup-box fieldset label input
+{
+    display: block;
+    width: 97%;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.signup-box fieldset label input.input
+{
+    display: inline;
+    width: 20px;
+    height: 13px;
+    margin-bottom: 20px;
+}
+.signup-box fieldset label select
+{
+    width: 97%;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.signup-box fieldset label input.edu
+{
+    display: inline;
+    width: 20px;
+    height: 13px;
+}
+.signup-box fieldset label input.file
+{
+    padding-left: 0px;
+}
+.signup-box fieldset label textarea
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+.signup-box fieldset label.button
+{
+    padding-top: 30px;
+    margin-left: 300px;
+}
